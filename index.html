@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,6 +7,16 @@
     <title>Vite App</title>
   </head>
   <body>
+    <header id="principal-header" hidden>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/employee">Employee</a></li>
+          <li><a href="/users">Users</a></li>
+        </ul>
+      </nav>
+      <button id="logOut" class="bg-cyan-100 rounded-lg px-2 cursor-pointer"> Logout</button>
+    </header>
     <div id="app" class="bg-gray-100"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
